@@ -85,9 +85,9 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_download_movie
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '29b557074aa857e56ca7fd6ad2e42ef2788e8443')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_moviezone/5')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '06e8c86a49c4a36af9de3db010b6e380ab389919')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_moviezone/8')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
