@@ -77,17 +77,17 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # Verification Settings
 # ============================
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
-DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24))  # Add time in hours
+DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 12))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002161709771'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_download_moviezone/5')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_download_moviezone')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '06e8c86a49c4a36af9de3db010b6e380ab389919')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_moviezone/8')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9dd988a0552a97f798e7a811622c95b5a307dcb5')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_download_moviezone')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
